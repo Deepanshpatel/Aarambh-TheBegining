@@ -7,9 +7,9 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-<link rel="icon" type="image/png" href="/images/top-logo.png">
+    <link rel="icon" type="image/png" href="/images/top-logo.png">
 
-<title>Aarambh - The Begining</title>
+    <title>Aarambh - The Begining</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,14 +33,14 @@
         <header class="site-header">
             <div class="container">
                 <div class="row">
-        
+
                     <div class="col-lg-12 col-12 d-flex flex-wrap">
                         <p class="d-flex me-4 mb-0">
                             <i class="bi-person custom-icon me-2"></i>
                             <strong class="text-dark">Welcome to Fresher's 2025</strong>
                         </p>
                     </div>
-        
+
                 </div>
             </div>
         </header>
@@ -49,7 +49,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/Logo.png" class="logo img-fluid" alt="Festava Logo" style="width: 7rem;">
+                    <img src="images/Logo.jpg" class="logo img-fluid" alt="Festava Logo" style="width: 7rem;">
                 </a>
 
                 <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -72,7 +72,7 @@
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.html#section_3">Artists</a>
                         </li>
-<!--
+                        <!--
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.html#section_4">Schedule</a>
                         </li>
@@ -98,8 +98,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-10 mx-auto">
-                        <form class="custom-form ticket-form mb-5 mb-lg-0" action="https://api.web3forms.com/submit" method="POST" role="form">
-                            
+                        <form class="custom-form ticket-form mb-5 mb-lg-0" action="https://api.web3forms.com/submit"
+                            method="POST" role="form">
+
                             <h2 class="text-center mb-4">Get started here</h2>
                             <input type="hidden" name="access_key" value="11644780-0777-4fe2-b60a-97ffe1c98a45">
                             <div class="ticket-form-body">
@@ -117,39 +118,58 @@
                                 </div>
 
                                 <input type="tel" class="form-control" name="ticket-form-phone"
-                                    placeholder="10 digit mobile number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required="">
+                                    placeholder="10 digit mobile number" required="">
 
                                 <h6>Choose Ticket Type</h6>
 
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-check form-control" style="background-image: url(./images/nainoa-shizuru-unsplash-blur.jpg); background-position: center;">
-                                            <input class="form-check-input" type="radio" name="Stag Pass"
+                                        <div class="form-check form-control"
+                                            style="background-image: url(./images/nainoa-shizuru-unsplash-blur.jpg); background-position: center;">
+                                            <input class="form-check-input" type="checkbox" name="Stag Pass"
                                                 id="flexRadioDefault1" value="Stag Pass" checked>
-                                            <label class="form-check-label" for="flexRadioDefault1" style="color: beige;">
+                                            <label class="form-check-label" for="flexRadioDefault1"
+                                                style="color: beige;">
                                                 Stag Pass Rs 599 /-
                                             </label>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-check form-check-radio form-control" style="background-image: url(./images/edward-unsplash-blur.jpg); background-position: center;">
-                                            <input class="form-check-input" type="radio" name="Couple Pass"
+                                        <div class="form-check form-check-radio form-control"
+                                            style="background-image: url(./images/edward-unsplash-blur.jpg); background-position: center;">
+                                            <input class="form-check-input" type="checkbox" name="Couple Pass"
                                                 id="flexRadioDefault2" value="Couple Pass">
-                                            <label class="form-check-label" for="flexRadioDefault2" style="color: beige;">
+                                            <label class="form-check-label" for="flexRadioDefault2"
+                                                style="color: beige;">
                                                 Couple Pass Rs 999 /-
                                             </label>
                                         </div>
                                     </div>
                                 </div>
 
-                                <input type="number" name="ticket-form-number" id="ticket-form-number"
-                                    class="form-control" placeholder="Number of Tickets" required>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div>
+                                            <input type="number" name="ticket-form-Stag" id="ticket-form-number"
+                                                class="form-control" placeholder="Number of Stag Passes" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div>
+                                            <div>
+                                                <input type="number" name="ticket-form-couple" id="ticket-form-number"
+                                                    class="form-control" placeholder="Number of Couple Passes" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <textarea name="ticket-form-message" rows="3" class="form-control"
                                     id="ticket-form-message" placeholder="Additional Request"></textarea>
 
-                                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                                 <div class="col-lg-4 col-md-10 col-8 mx-auto">
                                     <button type="submit" class="form-control">Buy Ticket</button>
                                     <input type="hidden" name="apikey" value="11644780-0777-4fe2-b60a-97ffe1c98a45">
@@ -166,11 +186,11 @@
         <div class="site-footer-top">
             <div class="container">
                 <div class="row">
-    
+
                     <div class="col-lg-6 col-12">
                         <h2 class="text-white mb-lg-0">Aarambh - The Begining</h2>
                     </div>
-    
+
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
                         <ul class="social-icon d-flex justify-content-lg-end">
                             <li class="social-icon-item">
@@ -179,41 +199,41 @@
                                     <span class="bi-whatsapp"></span>
                                 </a>
                             </li>
-    
+
                             <li class="social-icon-item">
                                 <a href="https://www.instagram.com/aarambh_thebegining?igsh=cHlybHd6Y214cm95"
                                     class="social-icon-link">
                                     <span class="bi-instagram"></span>
                                 </a>
                             </li>
-    
+
                             <li class="social-icon-item">
                                 <a href="tel: +91 7000417787" class="social-icon-link">
                                     <span class="bi-telephone-outbound"></span>
                                 </a>
                             </li>
-    
+
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         <div class="container">
             <div class="row">
-    
+
                 <div class="col-lg-6 col-12 mb-4 pb-2">
                     <h5 class="site-footer-title mb-3">Links</h5>
-    
+
                     <ul class="site-footer-links">
                         <li class="site-footer-link-item">
                             <a href="#" class="site-footer-link">Home</a>
                         </li>
-    
+
                         <li class="site-footer-link-item">
                             <a href="#" class="site-footer-link">About</a>
                         </li>
-    
+
                         <li class="site-footer-link-item">
                             <a href="#" class="site-footer-link">Artists</a>
                         </li>
@@ -225,35 +245,35 @@
                         <li class="site-footer-link-item">
                             <a href="#" class="site-footer-link">Pricing</a>
                         </li>
-    
+
                         <li class="site-footer-link-item">
                             <a href="#" class="site-footer-link">Contact</a>
                         </li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                     <h5 class="site-footer-title mb-3">Have a question?</h5>
-    
+
                     <p class="text-white d-flex mb-1">
                         <a href="tel: +91 7000417787" class="site-footer-link">
                             +91 700-041-7787
                         </a>
                     </p>
-    
+
                     <p class="text-white d-flex">
                         <a href="aarambh.thebegining@gmail.com" class="site-footer-link">
                             aarambh.thebegining@gmail.com
                         </a>
                     </p>
                 </div>
-    
+
                 <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
                     <h5 class="site-footer-title mb-3">Location</h5>
-    
+
                     <p class="text-white d-flex mt-3 mb-2">
                         Toast and Bliss, Minal Shopping Street, Bhopal</p>
-    
+
                     <a class="link-fx-1 color-contrast-higher mt-3" href="index.html#section_6">
                         <span>Our Maps</span>
                         <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
@@ -267,17 +287,18 @@
                 </div>
             </div>
         </div>
-    
+
         <div class="site-footer-bottom">
             <div class="container">
                 <div class="row">
-    
+
                     <div class="col-lg-3 col-12 mt-5">
                         <p class="copyright-text">Copyright © 2025 Aarambh</p>
-                        <p class="copyright-text">Distributed by: <a href="https://www.bigweddingplanners.com/">BigWeddingPlanners</a>
+                        <p class="copyright-text">Distributed by: <a
+                                href="https://www.bigweddingplanners.com/">BigWeddingPlanners</a>
                         </p>
                     </div>
-    
+
                     <div class="col-lg-8 col-12 mt-lg-5">
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
