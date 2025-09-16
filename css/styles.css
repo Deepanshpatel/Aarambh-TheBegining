@@ -1021,6 +1021,6 @@ strong {
 
 @media  (max-width: 500px) {
   .pricing-tag {
-    max-width: 100px;
+    max-width: 30px;
   }
 }
